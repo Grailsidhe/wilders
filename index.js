@@ -1,6 +1,15 @@
 const wilders = require("./wilders");
 const chalk = require("chalk");
 
- console.log(chalk.blue(
-    `And the wilders are ${wilders.first}, ${wilders.second}, ${wilders.third}, ${wilders.fourth}`
+console.log(chalk.blue(
+    wilders.first
+)); 
+console.log(chalk.red(
+    wilders.second
+));
+console.log(chalk.green(
+    wilders.third
+));
+console.log(chalk.cyan(
+    wilders.fourth
 ));
